@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    /* position: absolute; */
+    background-color: #83c5be;
+    width: 10vw;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    transition: transform 0.3s ease-in;
+
+}
+
+.sidebar nav {
+    padding: 22px 23px;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 32px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: #fafeff;
+    width: 90vw;
+    height: 100vh;
+    /* margin-left: 67px; */
+}
+
+.infocontainer {
+    display: flex;
+    /* background-color: red; */
+    width: 80vw;
+    height: 58vh;
+    margin: auto;
+    margin-top: 33px;
+    justify-content: space-around;
+}
+
+.devpic img {
+    height: 48vh;
+    width: 188px;
+    /* border-radius: 44%; */
+    margin-top: 63px;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.hello {
+    font-size: 33px;
+}
+
+.name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.about {
+    font-size: 23px;
+    margin-top: 7px;
+}
+
+.moreabout {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    background-image: linear-gradient(#42A1EC, #0070C9);
+    border: 1px solid #0077CC;
+    margin-left: 13px;
+    margin-top: 5px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    direction: ltr;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 8px;
+
+}
+
+.btn:hover {
+    background-image: linear-gradient(#51A9EE, #147BCD);
+    border-color: #1482D0;
+    text-decoration: none;
+}
+
+.btn-contact {
+    background-image: linear-gradient(#42A1EC, #0070C9);
+    border: 1px solid #0077CC;
+    margin-left: 13px;
+    margin-top: 17px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    direction: ltr;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 12px;
+
+}
+
+.btn-contact:hover {
+    background-image: linear-gradient(#51A9EE, #147BCD);
+    border-color: #1482D0;
+    text-decoration: none;
+}
+
+/* Styling for contact.html */
+.contactform {
+    border: 2px solid gainsboro;
+    width: 50vw;
+    margin-top: 50px;
+    margin-left: 216px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 5px;
+    padding: 22px 25px;
+}
+
+.forminput {
+    padding: 10px 10px;
+    margin-top: 18px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.form-control {
+    border: 1.5px solid #787575;
+    border-radius: 5px;
+    padding: 3px 229px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.h3 {
+    margin: 0 178px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Styling for blog.html */
+.blogcontainer {
+    width: 85vw;
+    margin-left: 49px;
+    /* border: 2px solid gainsboro; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 16px;
+    height: 83vh;
+    margin-top: 53px;
+    border-radius: 8px;
+}
+
+.h2-blogs {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.html {
+
+    padding-top: 15px;
+}
+
+.css {
+
+    padding-top: 30px;
+}
+
+.js {
+
+    padding-top: 30px;
+}
+
+.nodejs {
+
+    padding-top: 30px;
+}
+
+.lorem {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn-blog {
+    background-image: linear-gradient(#42A1EC, #0070C9);
+    border: 1px solid #0077CC;
+    margin-left: 2px;
+    margin-top: 4px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    direction: ltr;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1px 10px;
+}
+
+.btn-blog:hover {
+    background-image: linear-gradient(#51A9EE, #147BCD);
+    border-color: #1482D0;
+    text-decoration: none;
+}
+
+/* Styling for my intro */
+.myintro {
+    /* background-color: red; */
+    width: 85vw;
+    height: 20vh;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.myintro h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.myintro p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.skillcontainer {
+    width: 85vw;
+    height: 60vh;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    padding: 11px 0px;
+}
+
+.skillcontainer h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+}
+
+.htmlskill {
+    width: 296px;
+    height: 5px;
+    background-color: #015e3a;
+    margin-top: 5px;
+    margin-left: 25px;
+    border: 1px solid black;
+}
+
+.cssskill {
+    width: 242px;
+    height: 5px;
+    background-color: #4ec597;
+    margin-top: 5px;
+    margin-left: 42px;
+    border: 1px solid black;
+}
+
+.javascriptskill {
+    width: 190px;
+    height: 5px;
+    background-color: #94ddc1;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+.nodejsskill {
+    width: 160px;
+    height: 5px;
+    background-color: #aee5d0;
+    margin-top: 5px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.sqlskill {
+    width: 272px;
+    height: 5px;
+    background-color: #37a37a;
+    margin-top: 5px;
+    margin-left: 37px;
+    border: 1px solid black;
+}
+
+.hamcross {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    /* background-color: red; */
+    /* display: flex; */
+}
+
+/* .hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+} */
+
+/* .hamparent {
+    width: 50px;
+} */
+
+/* .crossparent {
+    width: 50px;
+    position: relative;
+    margin-left: 65px;
+} */
+
+.cross {
+    margin-left: 102px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+.sidebargo {
+    transform: translate(-137px, 0px);
+    position: absolute;
+}
+
+@media (max-width: 1250px) {
+    .devpic{
+        display: none;
+    }
+    /* *{background-color: red;
+  } */
+    /* .sidebar{
+ /* transform: translate(-440px, 0px);
+ position: absolute;
+ }  */
+    /* } */

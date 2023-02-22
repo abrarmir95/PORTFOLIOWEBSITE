@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+      <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a> </li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/services.html">Services </a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+          <div class="hamcross">
+
+            <img class="ham" src="images/ham.png" alt=""width="15">
+            <img class="cross" src="images/cross.png" alt=""width="15">
+
+        </div>
+           <div class="contactform">
+            <h3 class="h3">Contact me for work or general queries</h3>
+            <form>
+                <div class="forminput">
+                    <label for="InputName" class="form-label">Name:</label> <br>
+                    <input type="text" class="form-control" id="InputName">
+                  </div>
+
+                <div class="forminput">
+                  <label for="InputEmail1" class="form-label">Email address:</label> <br>
+                  <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+
+                <div class="forminput">
+                  <label for="InputPassword1" class="form-label">Phone Number:</label> <br>
+                  <input type="number" class="form-control" id="InputPassword1">
+                </div>
+                <div class="forminput">
+                    <label for="InputEnquiry" class="form-label">Enquiry:</label> <br>
+                    <input type="text" class="form-control" id="InputEnquiry">
+                  </div>
+                
+                <button type="submit" class="btn-contact ">Submit</button>
+
+              </form>
+           </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
